@@ -44,7 +44,7 @@ Given the latest developments in Android we wanted to adhere to best practices a
 
 ### Modularization
 
-![Multi-module architecture](resources/Android Architecture.png "Multi-Module Architecture")
+![Multi-module architecture](https://github.com/DuartBreedt/Android-Navigation-in-a-Single-Activity-Multi-Module-App/blob/master/resources/Android%20Architecture.png "Multi-Module Architecture")
 
 ### Single Activity
 
