@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/nav_graph"
+            app:startDestination="@id/fooFragment">
+
+    <fragment android:id="@+id/fooFragment" android:name="com.example.foo.FooFragment"
+              android:label="fragment_foo">
+        <action android:id="@+id/action_fooFragment_to_barFragment" app:destination="@id/barFragment"/>
+    </fragment>
+
+    <fragment android:id="@+id/barFragment" android:name="com.example.navigationdemo.bar.BarFragment"
+              android:label="fragment_bar"/>
+
+</navigation>
