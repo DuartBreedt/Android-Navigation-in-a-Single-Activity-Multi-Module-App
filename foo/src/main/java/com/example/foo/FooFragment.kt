@@ -9,7 +9,6 @@ import androidx.lifecycle.ViewModelProviders
 import androidx.navigation.fragment.findNavController
 import kotlinx.android.synthetic.main.fragment_foo.*
 
-
 class FooFragment : Fragment() {
 
     companion object {
@@ -28,7 +27,7 @@ class FooFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        woooo.setOnClickListener { findNavController().navigate(R.id.barFragment) }
+        go_somwhere_button.setOnClickListener { findNavController().navigate(R.id.barFragment) }
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
@@ -36,5 +35,4 @@ class FooFragment : Fragment() {
         viewModel = ViewModelProviders.of(this).get(FooViewModel::class.java)
         // TODO: Use the ViewModel
     }
-
 }

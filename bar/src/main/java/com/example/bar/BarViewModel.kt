@@ -1,4 +1,4 @@
-package com.example.navigationdemo.bar
+package com.example.bar
 
 import androidx.lifecycle.ViewModel;
 

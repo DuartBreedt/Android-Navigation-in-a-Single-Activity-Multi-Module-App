@@ -1,4 +1,4 @@
-package com.example.navigationdemo.bar
+package com.example.bar
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,7 +6,6 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProviders
-import com.example.navigationdemo.R
 
 class BarFragment : Fragment() {
 
@@ -28,5 +27,4 @@ class BarFragment : Fragment() {
         viewModel = ViewModelProviders.of(this).get(BarViewModel::class.java)
         // TODO: Use the ViewModel
     }
-
 }
